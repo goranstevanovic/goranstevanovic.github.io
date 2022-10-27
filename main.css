@@ -1,6 +1,7 @@
 :root {
   --accent-color: #ffba66;
   --dark-color: #181c2f;
+  --hero-color: #0c30b0;
   --light-color: #656b99;
   --lighter-color: #f8f8ff;
   --lightest-color: #fcfcff;
@@ -27,6 +28,15 @@ img {
   max-width: 100%;
 }
 
+.highlight {
+  color: var(--accent-color);
+}
+
+.highlight-alt {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
 /* Header */
 
 .header {
@@ -47,4 +57,22 @@ img {
 .nav-link {
   color: var(--main-color);
   text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+  color: var(--light-color);
+  margin: 5rem 0;
+  padding: 0 1rem;
+}
+
+.hero-heading {
+  color: var(--hero-color);
+  font-size: 2.25rem;
+  margin: 0 0 0.5rem;
+}
+
+.hero-intro {
+  margin: 0;
 }
