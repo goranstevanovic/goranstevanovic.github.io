@@ -29,6 +29,14 @@ img {
   max-width: 100%;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .highlight {
   color: var(--accent-color);
 }
@@ -70,8 +78,8 @@ img {
 
 .hero {
   color: var(--light-color);
-  margin: 5rem 0;
-  padding: 0 1rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 .hero-heading {
@@ -89,14 +97,14 @@ img {
 .about-me {
   background-color: var(--lighter-color);
   margin-bottom: 5rem;
-  padding: 2rem 1rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 /* Projects */
 
 .projects {
   margin-bottom: 5rem;
-  padding: 0 1rem;
 }
 
 .project {
@@ -134,8 +142,7 @@ img {
 /* Contact */
 
 .contact {
-  margin: 0 0 2rem;
-  padding: 0 1rem;
+  margin-bottom: 2rem;
 }
 
 .form-control {
