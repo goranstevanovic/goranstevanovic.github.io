@@ -32,7 +32,7 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 60rem;
+  max-width: 50rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -99,6 +99,10 @@ img {
   margin-bottom: 5rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
+}
+
+.about-me p {
+  margin: 0 0 1rem;
 }
 
 /* Projects */
@@ -190,4 +194,22 @@ img {
 .footer-link {
   color: var(--lighter-color);
   text-decoration: none;
+}
+
+@media only screen and (min-width: 40em) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 'left-indent content right-indent';
+    grid-template-columns: 1fr 4fr 1fr;
+  }
+
+  .content-wrapper {
+    grid-area: content;
+  }
 }
