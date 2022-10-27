@@ -37,6 +37,12 @@ img {
   font-weight: 600;
 }
 
+.section-title {
+  color: var(--hero-color);
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+}
+
 /* Header */
 
 .header {
@@ -75,4 +81,12 @@ img {
 
 .hero-intro {
   margin: 0;
+}
+
+/* About Me */
+
+.about-me {
+  background-color: var(--lighter-color);
+  margin-bottom: 5rem;
+  padding: 2rem 1rem;
 }
