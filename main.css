@@ -112,6 +112,12 @@ img {
   margin-bottom: 5rem;
 }
 
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .project {
   display: flex;
   flex-direction: column;
@@ -221,6 +227,24 @@ img {
 
   .nav-list {
     gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .project {
+    align-items: start;
+    flex-direction: row;
+  }
+
+  .project-screenshot,
+  .project-info {
+    width: 50%;
   }
 }
 
