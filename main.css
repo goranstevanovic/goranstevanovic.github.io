@@ -169,3 +169,18 @@ img {
   font-weight: 600;
   padding: 0.5rem 1.5rem;
 }
+
+/* Footer */
+
+.footer {
+  background-color: var(--dark-color);
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.footer-link {
+  color: var(--lighter-color);
+  text-decoration: none;
+}
