@@ -241,12 +241,21 @@ img {
     grid-area: content;
   }
 
+  .section-title {
+    font-size: 2rem;
+  }
+
   .hero-heading {
     font-size: 3.5rem;
   }
 
   .hero-intro {
     font-size: 1.25rem;
+  }
+
+  .about-me {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
   }
 }
 
