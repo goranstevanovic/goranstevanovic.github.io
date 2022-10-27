@@ -200,20 +200,37 @@
     <section class="contact">
       <h2 class="section-title">Contact</h2>
       <p>You can contact me using the form below.</p>
-      <form>
-        <p>
-          <label for="name">Your name:</label>
-          <input type="text" id="name" placeholder="John Doe" />
+      <form class="form">
+        <p class="form-control">
+          <label class="form-label" for="name">Your name:</label>
+          <input
+            class="form-input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="John Doe"
+          />
         </p>
-        <p>
-          <label for="email">Your email address:</label>
-          <input type="email" id="email" placeholder="john.doe@example.com" />
+        <p class="form-control">
+          <label class="form-label" for="email">Your email address:</label>
+          <input
+            class="form-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="john.doe@example.com"
+          />
         </p>
-        <p>
-          <label for="message">Your message:</label>
-          <textarea id="message" placeholder="Hello!"></textarea>
+        <p class="form-control">
+          <label class="form-label" for="message">Your message:</label>
+          <textarea
+            class="form-input"
+            id="message"
+            name="message"
+            placeholder="Hello!"
+          ></textarea>
         </p>
-        <p><button>Send the message</button></p>
+        <p><button class="form-button">Send the message</button></p>
       </form>
     </section>
 

@@ -1,5 +1,6 @@
 :root {
   --accent-color: #ffba66;
+  --border-color: #c3c7fb;
   --dark-color: #181c2f;
   --hero-color: #0c30b0;
   --light-color: #656b99;
@@ -128,4 +129,43 @@ img {
   color: var(--hero-color);
   font-weight: 600;
   text-decoration: none;
+}
+
+/* Contact */
+
+.contact {
+  padding: 0 1rem;
+  margin: 0 0 2rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0.25rem;
+}
+
+.form-input {
+  padding: 0.5rem;
+  color: var(--dark-color);
+  border: 1px solid var(--border-color);
+  background-color: var(--lighter-color);
+}
+
+.form-input:focus {
+  outline: 2px solid var(--hero-color);
+}
+
+.form-input::placeholder {
+  color: var(--light-color);
+}
+
+.form-button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  color: var(--dark-color);
+  background-color: var(--accent-color);
+  font-weight: 600;
 }
