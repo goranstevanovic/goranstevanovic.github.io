@@ -1,0 +1,28 @@
+:root {
+  --main-color: #333c66;
+  --accent-color: #ffba66;
+  --dark-color: #181c2f;
+  --light-color: #656b99;
+  --lighter-color: #f8f8ff;
+  --lightest-color: #fcfcff;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--main-color);
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
