@@ -85,6 +85,7 @@ img {
 .hero-heading {
   color: var(--hero-color);
   font-size: 2.25rem;
+  line-height: 1.2;
   margin: 0 0 0.5rem;
 }
 
@@ -238,5 +239,28 @@ img {
 
   .content-wrapper {
     grid-area: content;
+  }
+
+  .hero-heading {
+    font-size: 3.5rem;
+  }
+
+  .hero-intro {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .hero {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+  }
+
+  .hero-heading {
+    font-size: 5rem;
+  }
+
+  .hero-intro {
+    font-size: 1.5rem;
   }
 }
