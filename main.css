@@ -188,6 +188,12 @@ img {
   padding: 0.5rem 1.5rem;
 }
 
+.message-input {
+  max-height: 20rem;
+  min-height: 10rem;
+  resize: vertical;
+}
+
 /* Footer */
 
 .footer {
