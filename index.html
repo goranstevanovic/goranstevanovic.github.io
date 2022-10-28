@@ -255,7 +255,11 @@
           You can contact me using the form below. I will do my best to reply as
           quickly as possible.
         </p>
-        <form class="form">
+        <form
+          class="form"
+          action="https://formspree.io/f/mgeqnrwk"
+          method="POST"
+        >
           <p class="form-control">
             <label class="form-label" for="name">Your name:</label>
             <input
@@ -264,6 +268,7 @@
               id="name"
               name="name"
               placeholder="John Doe"
+              required
             />
           </p>
           <p class="form-control">
@@ -274,6 +279,7 @@
               id="email"
               name="email"
               placeholder="john.doe@example.com"
+              required
             />
           </p>
           <p class="form-control">
@@ -283,6 +289,7 @@
               id="message"
               name="message"
               placeholder="Hello!"
+              required
             ></textarea>
           </p>
           <p><button class="form-button">Send the message</button></p>
