@@ -57,7 +57,11 @@ img {
 
 .header {
   background-color: var(--lighter-color);
+  left: 0;
   padding: 1rem 0;
+  position: sticky;
+  right: 0;
+  top: 0;
 }
 
 .nav-list {
@@ -106,9 +110,8 @@ img {
 
 .about-me {
   background-color: var(--lighter-color);
-  margin-bottom: 5rem;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-bottom: 4rem;
+  padding-top: 6rem;
 }
 
 .about-me p {
@@ -118,7 +121,7 @@ img {
 /* Projects */
 
 .projects {
-  margin-bottom: 5rem;
+  padding-top: 6rem;
 }
 
 .project-list {
@@ -171,7 +174,8 @@ img {
 /* Contact */
 
 .contact {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  padding-top: 6rem;
 }
 
 .form-control {
@@ -261,6 +265,12 @@ img {
 
   .nav-list li:first-child {
     margin-right: auto;
+  }
+
+  .about-me,
+  .projects,
+  .contact {
+    padding-top: 4rem;
   }
 }
 
